@@ -1,0 +1,57 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background: #5d5858;
+    }
+    h1 {
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .orderbook, .order-form {
+      flex: 1;
+      min-width: 300px;
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      padding: 0.5rem;
+      text-align: right;
+      border-bottom: 1px solid #ddd;
+    }
+    tr.simulated {
+      background-color: yellow;
+      font-weight: bold;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, select {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 5px;
+    }
+    button {
+      margin-top: 15px;
+      padding: 0.7rem;
+      background: #0070f3;
+      color: white;
+      border: none;
+      width: 100%;
+      border-radius: 4px;
+      cursor: pointer;
+    }
